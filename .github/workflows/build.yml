@@ -31,7 +31,7 @@ jobs:
           GOARCH=amd64 \
             go build -ldflags "-s -w" \
             -o out/discord-bot-linux-amd64 \
-            ./src/
+            ./cmd/bot
 
       - name: List outputs
         run: ls -lh out/
