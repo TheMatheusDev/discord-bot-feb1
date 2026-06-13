@@ -1,0 +1,4 @@
+*.exe
+*.env
+*.md
+!README.md
